@@ -18,6 +18,6 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('/login', [userController::class, 'login']);
-Route::get('/pakku', [userController::class, 'show']);
+Route::get('/victims', [userController::class, 'show']);
 
 

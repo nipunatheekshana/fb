@@ -27,15 +27,15 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="images/img-01.png" alt="IMG">
+					<img src="images/top-secret.jpg" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form" action="/login" method="GET">
 					<span class="login100-form-title">
-						Member Login
+						Login Here !
 					</span>
 
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<div class="wrap-input100 validate-input" data-val idate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -56,16 +56,16 @@
 							Login
 						</button>
 					</div>
-
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Forgot
-						</span>
-						<a class="txt2" href="#">
-							Username / Password?
-						</a>
-					</div>
-
+					<?php /*
+						<div class="text-center p-t-12">
+							<span class="txt1">
+								Forgot
+							</span>
+							<a class="txt2" href="#">
+								Username / Password?
+							</a>
+						</div>
+					*/ ?>
 
 				</form>
 			</div>
